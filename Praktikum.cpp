@@ -7,6 +7,14 @@ public:
     string nama;
     int jumlah;
     string kategori;
-    float TanggalProduksi;
+    string TanggalProduksi;
+    
+    void printData()
+    {
+        cout << "Nama Barang : " << nama << endl;
+        cout << "Jumlah : " << jumlah << endl;
+        cout << "Kategori : " << kategori << endl;
+        cout << "Tanggal Produksi :" << tanggalproduksi << endl;
+    }
  
 }
