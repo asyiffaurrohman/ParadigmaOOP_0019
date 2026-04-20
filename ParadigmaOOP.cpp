@@ -18,4 +18,6 @@ public :
 }; //batas class
 
 int main(){
-    
+    Mahasiswa mhs;
+   
+
