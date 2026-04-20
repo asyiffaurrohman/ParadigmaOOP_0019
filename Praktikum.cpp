@@ -17,4 +17,24 @@ public:
         cout << "Tanggal Produksi :" << tanggalproduksi << endl;
     }
  
+}; //batas class
+
+int main(){
+    Barang.elektronik;
+    elektronik.nama = tablet;
+    elektronik.jumlah = 12;
+    elektronik.kategori = elektronik;
+    elektronik.TanggalProduksi = 2024.04;
+
+    elektronik.printdata();
+    cout << endl;
+
+    Barang Non;
+    Non.nama = pulpen;
+    Non.jumlah = 10;
+    Non.kategori = NonElektronik;
+    Non.TanggalProduksi = 2024.05;
+
+    Non.printdata();
+    
 }
